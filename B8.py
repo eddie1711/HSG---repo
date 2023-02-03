@@ -1,0 +1,6 @@
+f = open("B8.INP","r")
+f1 = open("B8.OUT","w")
+a = f.readlines()
+f1.write(str(int(a[1])**int(a[0])))
+f.close()
+f1.close()

@@ -1,0 +1,6 @@
+f = open("B3.INP", "r")
+f1 = open("B3.OUT", "w")
+a = f.readline()
+f1.write(str(int(a)*3000))
+f.close()
+f1.close()

@@ -1,0 +1,7 @@
+f = open("B7.INP", "r")
+f1 = open("B7.OUT", "w")
+a = f.readlines()
+vsum = int(a[0]) + int(a[1]) + int(a[2])
+f1.write(str(vsum/3))
+f.close()
+f1.close()
